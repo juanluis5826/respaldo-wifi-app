@@ -61,8 +61,13 @@ public final class Almacen {
         archivoCola = new File(c.getFilesDir(), "cola.json");
         if (archivoCola.exists()) {
             try {
-                byte[] b = java.nio.file.Files.readAllBytes(archivoCola.toPath());
-                cola.cargarJson(new String(b, StandardCharsets.UTF_8));
+                java.io.ByteArrayOutputStream b = new java.io.ByteArrayOutputStream();
+                try (java.io.FileInputStream in = new java.io.FileInputStream(archivoCola)) {
+                    byte[] buf = new byte[65536];
+                    int n;
+                    while ((n = in.read(buf)) > 0) b.write(buf, 0, n);
+                }
+                cola.cargarJson(new String(b.toByteArray(), StandardCharsets.UTF_8));
             } catch (Exception ignorado) { /* lista dañada: empezar vacía */ }
         }
     }

@@ -94,7 +94,7 @@ public class RespaldoPlugin extends Plugin implements Almacen.Escucha {
             c.put("servidor", almacen.servidor());
             r.put("conexion", c);
         } else {
-            r.put("conexion", null);
+            r.put("conexion", org.json.JSONObject.NULL);
         }
         r.put("dispositivo", almacen.dispositivo());
         r.put("modelo", Almacen.modelo());

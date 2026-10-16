@@ -66,7 +66,7 @@ log "Archivos de prueba: $(wc -l < "$EVID/sha-celular.txt") archivos, $TOTAL byt
 # ---- abrir la app (captura de la pantalla principal)
 adb logcat -c
 adb shell am start -n $PKG/.MainActivity > /dev/null
-sleep 6
+sleep 15
 adb exec-out screencap -p > "$EVID/1-app-abierta.png"
 
 # ===================== FASE A: pausar y continuar =====================
@@ -80,6 +80,7 @@ adb exec-out screencap -p > "$EVID/2-notificacion.png"
 adb shell cmd statusbar collapse
 adb shell am start -n $PKG/.PruebaActivity --es accion pausar > /dev/null
 if esperar_log "FIN PAUSADO" 30; then log "OK: se pausó con $(bytes_pc) bytes en la PC."; else fallar "no se pausó"; fi
+sleep 3   # el último trozo que ya iba en camino puede terminar de guardarse en la PC
 ANTES=$(bytes_pc); sleep 5
 [ "$(bytes_pc)" -eq "$ANTES" ] && log "OK: en pausa no se envía nada." || fallar "siguió enviando en pausa"
 ls -R "$SRV/respaldos" | grep -c '\.part$' | xargs -I{} log "Archivos a medias (.part) en la PC: {}"
