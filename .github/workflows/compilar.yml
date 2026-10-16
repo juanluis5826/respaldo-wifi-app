@@ -71,6 +71,7 @@ jobs:
           cp android/app/build/outputs/apk/release/app-release.apk "salida/RespaldoWiFi-$VERSION_NAME.apk"
           cp android/app/build/outputs/apk/debug/app-debug.apk "salida/app-debug.apk"
           ls -la salida
+          mkdir -p evidencias && cp salida/RespaldoWiFi-*.apk evidencias/
           "$ANDROID_HOME"/build-tools/*/apksigner verify --print-certs "salida/RespaldoWiFi-$VERSION_NAME.apk" | head -5 || true
 
       - name: Publicar evidencias en la rama "evidencias-compilar"
