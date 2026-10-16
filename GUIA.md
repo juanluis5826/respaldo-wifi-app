@@ -107,6 +107,7 @@ sigue donde se quedó. La PC le dice exactamente cuántos bytes ya tiene de cada
 | Ver conexiones de red y WiFi (`ACCESS_NETWORK_STATE`, `ACCESS_WIFI_STATE`) | Mandar los datos **por el WiFi** aunque Android esté usando datos móviles como red principal. Pasa cuando el módem "no tiene internet". |
 | Mantener despierto (`WAKE_LOCK`) | Que la CPU y el WiFi no se duerman mientras sube con la pantalla apagada. Se suelta al terminar o pausar. |
 | Servicio en primer plano de sincronización (`FOREGROUND_SERVICE`, `FOREGROUND_SERVICE_DATA_SYNC`) | El "motor" que sigue subiendo con la pantalla apagada, siempre con su notificación visible. |
+| `mx.respaldowifi.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION` | Lo agrega automáticamente la librería de Android (AndroidX). Es interno: impide que otras apps le manden mensajes a la tuya. |
 
 **Lo que la app NO pide:** acceso a todos los archivos, almacenamiento, fotos, contactos,
 ubicación ni micrófono. Solo lee **lo que el usuario elige** en el selector de Android.
