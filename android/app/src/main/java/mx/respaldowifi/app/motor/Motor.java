@@ -138,6 +138,8 @@ public final class Motor {
         oyente.cambio(a);
 
         int intentos = 0, intentosRed = 0, desfases = 0;
+        int fallosEnvio = 0;        // cortes durante el envío de un trozo (no al preguntar estado)
+        boolean enviando = false;
         long offset = -1;           // -1 = preguntar a la PC desde dónde seguir
         InputStream in = null;
         long posicion = -1;         // hasta dónde se ha leído "in"
@@ -162,6 +164,13 @@ public final class Motor {
                         }
                         offset = Json.entero(st, "recibido", 0);
                         a.enviados = offset;
+                        // La PC sí responde, pero el envío del trozo se cortó 2 veces: casi seguro
+                        // el trozo es más grande de lo que acepta (PHP a veces corta en vez de dar 413).
+                        if (fallosEnvio >= 2 && trozo > TROZO_MINIMO) {
+                            trozo = Math.max(TROZO_MINIMO, trozo / 2);
+                            fallosEnvio = 0;
+                            intentosRed = 0;
+                        }
                     }
 
                     int largo = (int) Math.min(trozo, a.tam - offset);
@@ -174,13 +183,16 @@ public final class Motor {
                     a.yaIniciado = true;
                     final long base = offset;
                     posicion = -1;   // si algo falla a la mitad, hay que volver a abrir
+                    enviando = true;
                     Map<String, Object> r = cliente.subir(a.sesion, a.ruta, a.tam, offset, a.mtime, in, largo,
                         enviados -> {
                             a.enviados = base + Math.min(enviados, largo);
                             muestra();
                             oyente.progreso();
                         });
+                    enviando = false;
                     posicion = base + largo;
+                    fallosEnvio = 0;
                     intentos = 0;
                     intentosRed = 0;
                     desfases = 0;
@@ -196,6 +208,8 @@ public final class Motor {
                     }
                 } catch (ClienteApi.ErrorHttp e) {
                     posicion = -1;
+                    if (enviando && e.codigo == 0) fallosEnvio++;
+                    enviando = false;
                     switch (e.codigo) {
                         case -1:
                             a.estado = Archivo.PENDIENTE;

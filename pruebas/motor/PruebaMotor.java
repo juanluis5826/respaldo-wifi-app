@@ -147,7 +147,7 @@ public class PruebaMotor {
         prueba("Medidor: ping, prueba y resultado", () -> {
             ClienteApi api = new ClienteApi(e, null);
             api.ping();
-            api.prueba(aleatorio(4 * 1024 * 1024), null);
+            api.prueba(aleatorio(2 * 1024 * 1024), null);   // como en la app: menor que el trozo
             api.resultado(12.34, 5, "Celular de prueba");
             String v = new String(Files.readAllBytes(SRV.resolve("datos/velocidad.json")), "UTF-8");
             check(v.contains("12.34") && v.contains("Celular de prueba"), v);
@@ -168,7 +168,7 @@ public class PruebaMotor {
 
         php.destroyForcibly().waitFor();
 
-        prueba("413: la PC acepta menos de lo anunciado, el trozo se reduce solo", () -> {
+        prueba("Trozo más grande de lo que acepta la PC (413 o corte): se reduce solo", () -> {
             Enlace e2 = arrancar("1M", "1M", "router_413.php");
             Cola c = new Cola();
             agregar(c, "mediano.bin", "Otros/mediano.bin");
