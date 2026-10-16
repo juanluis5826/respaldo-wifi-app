@@ -209,7 +209,7 @@ public final class ClienteApi {
 
     private ErrorHttp sinConexion(IOException e) {
         if (cancelado) return new ErrorHttp(-1, null, "Cancelado");
-        return new ErrorHttp(0, null, "Sin conexión con la PC (" + e.getClass().getSimpleName() + ")");
+        return new ErrorHttp(0, null, "Sin conexión con la PC (" + e.getClass().getSimpleName() + ": " + e.getMessage() + ")");
     }
 
     private Map<String, Object> get(String accion, Map<String, String> params) throws ErrorHttp {

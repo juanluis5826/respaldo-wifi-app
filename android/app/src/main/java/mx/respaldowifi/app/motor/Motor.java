@@ -47,6 +47,8 @@ public final class Motor {
     private volatile boolean pausado;
     private volatile int trozo = 1536 * 1024;          // se ajusta con lo que diga la PC
     private volatile String servidor = "";
+    /** Detalle técnico del último error (para diagnóstico). */
+    public volatile String ultimoError = "";
     /** Multiplica las esperas entre reintentos (las pruebas lo bajan para ir rápido). */
     public double factorEspera = 1.0;
 
@@ -208,6 +210,7 @@ public final class Motor {
                     }
                 } catch (ClienteApi.ErrorHttp e) {
                     posicion = -1;
+                    ultimoError = (enviando ? "subir: " : "estado: ") + e.getMessage();
                     if (enviando && e.codigo == 0) fallosEnvio++;
                     enviando = false;
                     switch (e.codigo) {

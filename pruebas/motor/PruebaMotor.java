@@ -172,7 +172,16 @@ public class PruebaMotor {
             Enlace e2 = arrancar("1M", "1M", "router_413.php");
             Cola c = new Cola();
             agregar(c, "mediano.bin", "Otros/mediano.bin");
-            Motor m = motor(e2, c, null);
+            Motor[] mm = new Motor[1];
+            long t0 = System.currentTimeMillis();
+            mm[0] = new Motor(c, new ClienteApi(e2, null), PruebaMotor::abrir, new Motor.Oyente() {
+                public void cambio(Archivo x) {
+                    System.out.println("    [" + (System.currentTimeMillis() - t0) + " ms] " + x.estado + " enviados=" + x.enviados + " trozo=" + mm[0].trozo() + " " + x.error + " | " + mm[0].ultimoError);
+                }
+                public void progreso() { }
+            });
+            Motor m = mm[0];
+            m.factorEspera = 0.3;
             Motor.Fin f = m.ejecutar("Trozo 2026-10-16");
             check(f == Motor.Fin.COMPLETO, "fin " + f);
             check(m.trozo() < 1024 * 1024, "trozo final " + m.trozo());
