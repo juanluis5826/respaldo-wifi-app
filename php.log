@@ -1,0 +1,322 @@
+[Fri Oct 16 15:05:24 2026] PHP 8.3.6 Development Server (http://0.0.0.0:8000) started
+[Fri Oct 16 15:05:24 2026] 127.0.0.1:45892 Accepted
+[Fri Oct 16 15:05:24 2026] 127.0.0.1:45892 Closing
+[Fri Oct 16 15:05:24 2026] 127.0.0.1:45906 Accepted
+[Fri Oct 16 15:05:24 2026] 127.0.0.1:45906 [401]: GET /api.php?accion=ping&t=x
+[Fri Oct 16 15:05:24 2026] 127.0.0.1:45906 Closing
+[Fri Oct 16 15:06:15 2026] 127.0.0.1:58800 Accepted
+[Fri Oct 16 15:06:16 2026] 127.0.0.1:58800 [200]: GET /api.php?accion=info&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:06:16 2026] 127.0.0.1:58800 Closing
+[Fri Oct 16 15:06:20 2026] 127.0.0.1:38104 Accepted
+[Fri Oct 16 15:06:20 2026] 127.0.0.1:38104 [200]: GET /api.php?accion=info&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:06:20 2026] 127.0.0.1:38104 Closing
+[Fri Oct 16 15:06:22 2026] 127.0.0.1:38108 Accepted
+[Fri Oct 16 15:06:22 2026] 127.0.0.1:38108 [200]: GET /api.php?accion=estado&t=2d406cb159f6ab5d4b6203c6&sesion=Emulador%202026-10-16&ruta=Prueba%2FDCIM%2FCamera%2FVID_0001.mp4&tamano=25000000
+[Fri Oct 16 15:06:22 2026] 127.0.0.1:38108 Closing
+[Fri Oct 16 15:06:23 2026] 127.0.0.1:38112 Accepted
+[Fri Oct 16 15:06:26 2026] 127.0.0.1:38112 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:06:26 2026] 127.0.0.1:38112 Closing
+[Fri Oct 16 15:06:26 2026] 127.0.0.1:38128 Accepted
+[Fri Oct 16 15:06:28 2026] 127.0.0.1:38128 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:06:28 2026] 127.0.0.1:38128 Closing
+[Fri Oct 16 15:06:28 2026] 127.0.0.1:50906 Accepted
+[Fri Oct 16 15:06:30 2026] 127.0.0.1:50906 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:06:30 2026] 127.0.0.1:50906 Closing
+[Fri Oct 16 15:06:33 2026] 127.0.0.1:50920 Accepted
+[Fri Oct 16 15:06:39 2026] 127.0.0.1:50920 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:06:39 2026] 127.0.0.1:50920 Closing
+[Fri Oct 16 15:06:40 2026] 127.0.0.1:47550 Accepted
+[Fri Oct 16 15:06:42 2026] 127.0.0.1:47550 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:06:42 2026] 127.0.0.1:47550 Closing
+[Fri Oct 16 15:06:43 2026] 127.0.0.1:47552 Accepted
+[Fri Oct 16 15:06:45 2026] 127.0.0.1:47552 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:06:45 2026] 127.0.0.1:47552 Closing
+[Fri Oct 16 15:06:46 2026] 127.0.0.1:47558 Accepted
+[Fri Oct 16 15:06:49 2026] 127.0.0.1:47558 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:06:49 2026] 127.0.0.1:47558 Closing
+[Fri Oct 16 15:06:49 2026] 127.0.0.1:58752 Accepted
+[Fri Oct 16 15:06:52 2026] 127.0.0.1:58752 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:06:52 2026] 127.0.0.1:58752 Closing
+[Fri Oct 16 15:06:52 2026] 127.0.0.1:58760 Accepted
+[Fri Oct 16 15:06:54 2026] 127.0.0.1:58760 Invalid request (Unexpected EOF)
+[Fri Oct 16 15:06:54 2026] 127.0.0.1:58760 Closing
+[Fri Oct 16 15:07:07 2026] 127.0.0.1:37740 Accepted
+[Fri Oct 16 15:07:07 2026] 127.0.0.1:37740 [200]: GET /api.php?accion=info&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:07:07 2026] 127.0.0.1:37740 Closing
+[Fri Oct 16 15:07:09 2026] 127.0.0.1:60700 Accepted
+[Fri Oct 16 15:07:09 2026] 127.0.0.1:60700 [200]: GET /api.php?accion=estado&t=2d406cb159f6ab5d4b6203c6&sesion=Emulador%202026-10-16&ruta=Prueba%2FDCIM%2FCamera%2FVID_0001.mp4&tamano=25000000
+[Fri Oct 16 15:07:09 2026] 127.0.0.1:60700 Closing
+[Fri Oct 16 15:07:11 2026] 127.0.0.1:60716 Accepted
+[Fri Oct 16 15:07:18 2026] 127.0.0.1:60716 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:07:18 2026] 127.0.0.1:60716 Closing
+[Fri Oct 16 15:07:18 2026] 127.0.0.1:35466 Accepted
+[Fri Oct 16 15:07:20 2026] 127.0.0.1:35466 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:07:20 2026] 127.0.0.1:35466 Closing
+[Fri Oct 16 15:07:20 2026] 127.0.0.1:35468 Accepted
+[Fri Oct 16 15:07:23 2026] 127.0.0.1:35468 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:07:23 2026] 127.0.0.1:35468 Closing
+[Fri Oct 16 15:07:24 2026] 127.0.0.1:35470 Accepted
+[Fri Oct 16 15:07:30 2026] 127.0.0.1:35470 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:07:30 2026] 127.0.0.1:35470 Closing
+[Fri Oct 16 15:07:32 2026] 127.0.0.1:43256 Accepted
+[Fri Oct 16 15:07:32 2026] 127.0.0.1:43256 Invalid request (Unexpected EOF)
+[Fri Oct 16 15:07:32 2026] 127.0.0.1:43256 Closing
+[Fri Oct 16 15:07:50 2026] 127.0.0.1:57946 Accepted
+[Fri Oct 16 15:07:50 2026] 127.0.0.1:57946 [200]: GET /api.php?accion=info&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:07:50 2026] 127.0.0.1:57946 Closing
+[Fri Oct 16 15:07:51 2026] 127.0.0.1:57948 Accepted
+[Fri Oct 16 15:07:51 2026] 127.0.0.1:57948 [200]: GET /api.php?accion=estado&t=2d406cb159f6ab5d4b6203c6&sesion=Emulador%202026-10-16&ruta=Prueba%2FDCIM%2FCamera%2FVID_0001.mp4&tamano=25000000
+[Fri Oct 16 15:07:51 2026] 127.0.0.1:57948 Closing
+[Fri Oct 16 15:07:52 2026] 127.0.0.1:57954 Accepted
+[Fri Oct 16 15:07:59 2026] 127.0.0.1:57954 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:07:59 2026] 127.0.0.1:57954 Closing
+[Fri Oct 16 15:07:59 2026] 127.0.0.1:44692 Accepted
+[Fri Oct 16 15:08:01 2026] 127.0.0.1:44692 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:08:01 2026] 127.0.0.1:44692 Closing
+[Fri Oct 16 15:08:02 2026] 127.0.0.1:44696 Accepted
+[Fri Oct 16 15:08:02 2026] 127.0.0.1:44696 [200]: GET /api.php?accion=estado&t=2d406cb159f6ab5d4b6203c6&sesion=Emulador%202026-10-16&ruta=Prueba%2FDCIM%2FCamera%2FVID_0002.mp4&tamano=25000000
+[Fri Oct 16 15:08:02 2026] 127.0.0.1:44696 Closing
+[Fri Oct 16 15:08:02 2026] 127.0.0.1:44704 Accepted
+[Fri Oct 16 15:08:08 2026] 127.0.0.1:44704 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:08:08 2026] 127.0.0.1:44704 Closing
+[Fri Oct 16 15:08:09 2026] 127.0.0.1:59296 Accepted
+[Fri Oct 16 15:08:18 2026] 127.0.0.1:59296 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:08:18 2026] 127.0.0.1:59296 Closing
+[Fri Oct 16 15:08:20 2026] 127.0.0.1:56374 Accepted
+[Fri Oct 16 15:08:24 2026] 127.0.0.1:56374 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:08:24 2026] 127.0.0.1:56374 Closing
+[Fri Oct 16 15:08:24 2026] 127.0.0.1:56382 Accepted
+[Fri Oct 16 15:08:27 2026] 127.0.0.1:56382 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:08:27 2026] 127.0.0.1:56382 Closing
+[Fri Oct 16 15:08:27 2026] 127.0.0.1:56398 Accepted
+[Fri Oct 16 15:08:30 2026] 127.0.0.1:56398 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:08:30 2026] 127.0.0.1:56398 Closing
+[Fri Oct 16 15:08:30 2026] 127.0.0.1:58622 Accepted
+[Fri Oct 16 15:08:33 2026] 127.0.0.1:58622 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:08:33 2026] 127.0.0.1:58622 Closing
+[Fri Oct 16 15:08:34 2026] 127.0.0.1:58634 Accepted
+[Fri Oct 16 15:08:36 2026] 127.0.0.1:58634 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:08:36 2026] 127.0.0.1:58634 Closing
+[Fri Oct 16 15:08:36 2026] 127.0.0.1:58650 Accepted
+[Fri Oct 16 15:08:38 2026] 127.0.0.1:58650 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:08:38 2026] 127.0.0.1:58650 Closing
+[Fri Oct 16 15:08:38 2026] 127.0.0.1:35470 Accepted
+[Fri Oct 16 15:08:41 2026] 127.0.0.1:35470 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:08:41 2026] 127.0.0.1:35470 Closing
+[Fri Oct 16 15:08:41 2026] 127.0.0.1:35476 Accepted
+[Fri Oct 16 15:08:43 2026] 127.0.0.1:35476 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:08:43 2026] 127.0.0.1:35476 Closing
+[Fri Oct 16 15:08:43 2026] 127.0.0.1:35492 Accepted
+[Fri Oct 16 15:08:45 2026] 127.0.0.1:35492 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:08:45 2026] 127.0.0.1:35492 Closing
+[Fri Oct 16 15:08:45 2026] 127.0.0.1:35494 Accepted
+[Fri Oct 16 15:08:47 2026] 127.0.0.1:35494 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:08:47 2026] 127.0.0.1:35494 Closing
+[Fri Oct 16 15:08:47 2026] 127.0.0.1:35496 Accepted
+[Fri Oct 16 15:08:49 2026] 127.0.0.1:35496 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:08:49 2026] 127.0.0.1:35496 Closing
+[Fri Oct 16 15:08:50 2026] 127.0.0.1:58726 Accepted
+[Fri Oct 16 15:08:51 2026] 127.0.0.1:58726 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:08:51 2026] 127.0.0.1:58726 Closing
+[Fri Oct 16 15:08:51 2026] 127.0.0.1:58730 Accepted
+[Fri Oct 16 15:08:51 2026] 127.0.0.1:58730 [200]: GET /api.php?accion=estado&t=2d406cb159f6ab5d4b6203c6&sesion=Emulador%202026-10-16&ruta=Prueba%2FDCIM%2FCamera%2FVID_0003.mp4&tamano=25000000
+[Fri Oct 16 15:08:51 2026] 127.0.0.1:58730 Closing
+[Fri Oct 16 15:08:52 2026] 127.0.0.1:58746 Accepted
+[Fri Oct 16 15:08:54 2026] 127.0.0.1:58746 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:08:54 2026] 127.0.0.1:58746 Closing
+[Fri Oct 16 15:08:54 2026] 127.0.0.1:58754 Accepted
+[Fri Oct 16 15:08:56 2026] 127.0.0.1:58754 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:08:56 2026] 127.0.0.1:58754 Closing
+[Fri Oct 16 15:08:56 2026] 127.0.0.1:58770 Accepted
+[Fri Oct 16 15:08:58 2026] 127.0.0.1:58770 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:08:58 2026] 127.0.0.1:58770 Closing
+[Fri Oct 16 15:08:58 2026] 127.0.0.1:46934 Accepted
+[Fri Oct 16 15:09:00 2026] 127.0.0.1:46934 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:09:00 2026] 127.0.0.1:46934 Closing
+[Fri Oct 16 15:09:01 2026] 127.0.0.1:46950 Accepted
+[Fri Oct 16 15:09:03 2026] 127.0.0.1:46950 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:09:03 2026] 127.0.0.1:46950 Closing
+[Fri Oct 16 15:09:03 2026] 127.0.0.1:46952 Accepted
+[Fri Oct 16 15:09:05 2026] 127.0.0.1:46952 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:09:05 2026] 127.0.0.1:46952 Closing
+[Fri Oct 16 15:09:05 2026] 127.0.0.1:46962 Accepted
+[Fri Oct 16 15:09:07 2026] 127.0.0.1:46962 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:09:07 2026] 127.0.0.1:46962 Closing
+[Fri Oct 16 15:09:07 2026] 127.0.0.1:46966 Accepted
+[Fri Oct 16 15:09:09 2026] 127.0.0.1:46966 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:09:09 2026] 127.0.0.1:46966 Closing
+[Fri Oct 16 15:09:10 2026] 127.0.0.1:35078 Accepted
+[Fri Oct 16 15:09:12 2026] 127.0.0.1:35078 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:09:12 2026] 127.0.0.1:35078 Closing
+[Fri Oct 16 15:09:12 2026] 127.0.0.1:35090 Accepted
+[Fri Oct 16 15:09:24 2026] PHP 8.3.6 Development Server (http://0.0.0.0:8000) started
+[Fri Oct 16 15:09:24 2026] 127.0.0.1:44284 Accepted
+[Fri Oct 16 15:09:24 2026] 127.0.0.1:44284 Closing
+[Fri Oct 16 15:09:30 2026] 127.0.0.1:52710 Accepted
+[Fri Oct 16 15:09:30 2026] 127.0.0.1:52710 [200]: GET /api.php?accion=estado&t=2d406cb159f6ab5d4b6203c6&sesion=Emulador%202026-10-16&ruta=Prueba%2FDCIM%2FCamera%2FVID_0003.mp4&tamano=25000000
+[Fri Oct 16 15:09:30 2026] 127.0.0.1:52710 Closing
+[Fri Oct 16 15:09:30 2026] 127.0.0.1:52722 Accepted
+[Fri Oct 16 15:09:33 2026] 127.0.0.1:52722 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:09:33 2026] 127.0.0.1:52722 Closing
+[Fri Oct 16 15:09:33 2026] 127.0.0.1:52730 Accepted
+[Fri Oct 16 15:09:36 2026] 127.0.0.1:52730 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:09:36 2026] 127.0.0.1:52730 Closing
+[Fri Oct 16 15:09:36 2026] 127.0.0.1:52744 Accepted
+[Fri Oct 16 15:09:39 2026] 127.0.0.1:52744 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:09:39 2026] 127.0.0.1:52744 Closing
+[Fri Oct 16 15:09:39 2026] 127.0.0.1:46008 Accepted
+[Fri Oct 16 15:09:41 2026] 127.0.0.1:46008 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:09:41 2026] 127.0.0.1:46008 Closing
+[Fri Oct 16 15:09:42 2026] 127.0.0.1:46024 Accepted
+[Fri Oct 16 15:09:43 2026] 127.0.0.1:46024 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:09:43 2026] 127.0.0.1:46024 Closing
+[Fri Oct 16 15:09:44 2026] 127.0.0.1:46028 Accepted
+[Fri Oct 16 15:09:44 2026] 127.0.0.1:46028 [200]: GET /api.php?accion=estado&t=2d406cb159f6ab5d4b6203c6&sesion=Emulador%202026-10-16&ruta=Prueba%2FDCIM%2FCamera%2FVID_0004.mp4&tamano=25000000
+[Fri Oct 16 15:09:44 2026] 127.0.0.1:46028 Closing
+[Fri Oct 16 15:09:44 2026] 127.0.0.1:46030 Accepted
+[Fri Oct 16 15:09:46 2026] 127.0.0.1:46030 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:09:46 2026] 127.0.0.1:46030 Closing
+[Fri Oct 16 15:09:47 2026] 127.0.0.1:46032 Accepted
+[Fri Oct 16 15:09:49 2026] 127.0.0.1:46032 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:09:49 2026] 127.0.0.1:46032 Closing
+[Fri Oct 16 15:09:49 2026] 127.0.0.1:35384 Accepted
+[Fri Oct 16 15:09:51 2026] 127.0.0.1:35384 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:09:51 2026] 127.0.0.1:35384 Closing
+[Fri Oct 16 15:09:52 2026] 127.0.0.1:35394 Accepted
+[Fri Oct 16 15:09:54 2026] 127.0.0.1:35394 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:09:54 2026] 127.0.0.1:35394 Closing
+[Fri Oct 16 15:09:54 2026] 127.0.0.1:35400 Accepted
+[Fri Oct 16 15:09:56 2026] 127.0.0.1:35400 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:09:56 2026] 127.0.0.1:35400 Closing
+[Fri Oct 16 15:09:57 2026] 127.0.0.1:35416 Accepted
+[Fri Oct 16 15:09:59 2026] 127.0.0.1:35416 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:09:59 2026] 127.0.0.1:35416 Closing
+[Fri Oct 16 15:09:59 2026] 127.0.0.1:47466 Accepted
+[Fri Oct 16 15:10:02 2026] 127.0.0.1:47466 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:02 2026] 127.0.0.1:47466 Closing
+[Fri Oct 16 15:10:02 2026] 127.0.0.1:47470 Accepted
+[Fri Oct 16 15:10:06 2026] 127.0.0.1:47470 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:06 2026] 127.0.0.1:47470 Closing
+[Fri Oct 16 15:10:06 2026] 127.0.0.1:47478 Accepted
+[Fri Oct 16 15:10:08 2026] 127.0.0.1:47478 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:08 2026] 127.0.0.1:47478 Closing
+[Fri Oct 16 15:10:08 2026] 127.0.0.1:52982 Accepted
+[Fri Oct 16 15:10:11 2026] 127.0.0.1:52982 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:11 2026] 127.0.0.1:52982 Closing
+[Fri Oct 16 15:10:11 2026] 127.0.0.1:52992 Accepted
+[Fri Oct 16 15:10:13 2026] 127.0.0.1:52992 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:13 2026] 127.0.0.1:52992 Closing
+[Fri Oct 16 15:10:13 2026] 127.0.0.1:53000 Accepted
+[Fri Oct 16 15:10:15 2026] 127.0.0.1:53000 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:15 2026] 127.0.0.1:53000 Closing
+[Fri Oct 16 15:10:16 2026] 127.0.0.1:53010 Accepted
+[Fri Oct 16 15:10:18 2026] 127.0.0.1:53010 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:18 2026] 127.0.0.1:53010 Closing
+[Fri Oct 16 15:10:18 2026] 127.0.0.1:53066 Accepted
+[Fri Oct 16 15:10:19 2026] 127.0.0.1:53066 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:19 2026] 127.0.0.1:53066 Closing
+[Fri Oct 16 15:10:20 2026] 127.0.0.1:53072 Accepted
+[Fri Oct 16 15:10:20 2026] 127.0.0.1:53072 [200]: GET /api.php?accion=estado&t=2d406cb159f6ab5d4b6203c6&sesion=Emulador%202026-10-16&ruta=Prueba%2FDCIM%2FCamera%2FVID_0005.mp4&tamano=25000000
+[Fri Oct 16 15:10:20 2026] 127.0.0.1:53072 Closing
+[Fri Oct 16 15:10:21 2026] 127.0.0.1:53080 Accepted
+[Fri Oct 16 15:10:23 2026] 127.0.0.1:53080 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:23 2026] 127.0.0.1:53080 Closing
+[Fri Oct 16 15:10:24 2026] 127.0.0.1:53084 Accepted
+[Fri Oct 16 15:10:26 2026] 127.0.0.1:53084 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:26 2026] 127.0.0.1:53084 Closing
+[Fri Oct 16 15:10:26 2026] 127.0.0.1:53090 Accepted
+[Fri Oct 16 15:10:28 2026] 127.0.0.1:53090 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:28 2026] 127.0.0.1:53090 Closing
+[Fri Oct 16 15:10:28 2026] 127.0.0.1:50116 Accepted
+[Fri Oct 16 15:10:30 2026] 127.0.0.1:50116 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:30 2026] 127.0.0.1:50116 Closing
+[Fri Oct 16 15:10:30 2026] 127.0.0.1:50128 Accepted
+[Fri Oct 16 15:10:32 2026] 127.0.0.1:50128 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:32 2026] 127.0.0.1:50128 Closing
+[Fri Oct 16 15:10:32 2026] 127.0.0.1:50132 Accepted
+[Fri Oct 16 15:10:34 2026] 127.0.0.1:50132 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:34 2026] 127.0.0.1:50132 Closing
+[Fri Oct 16 15:10:34 2026] 127.0.0.1:50142 Accepted
+[Fri Oct 16 15:10:36 2026] 127.0.0.1:50142 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:36 2026] 127.0.0.1:50142 Closing
+[Fri Oct 16 15:10:36 2026] 127.0.0.1:50146 Accepted
+[Fri Oct 16 15:10:38 2026] 127.0.0.1:50146 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:38 2026] 127.0.0.1:50146 Closing
+[Fri Oct 16 15:10:38 2026] 127.0.0.1:48972 Accepted
+[Fri Oct 16 15:10:40 2026] 127.0.0.1:48972 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:40 2026] 127.0.0.1:48972 Closing
+[Fri Oct 16 15:10:40 2026] 127.0.0.1:48978 Accepted
+[Fri Oct 16 15:10:42 2026] 127.0.0.1:48978 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:42 2026] 127.0.0.1:48978 Closing
+[Fri Oct 16 15:10:42 2026] 127.0.0.1:48986 Accepted
+[Fri Oct 16 15:10:44 2026] 127.0.0.1:48986 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:44 2026] 127.0.0.1:48986 Closing
+[Fri Oct 16 15:10:44 2026] 127.0.0.1:49000 Accepted
+[Fri Oct 16 15:10:46 2026] 127.0.0.1:49000 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:46 2026] 127.0.0.1:49000 Closing
+[Fri Oct 16 15:10:46 2026] 127.0.0.1:49008 Accepted
+[Fri Oct 16 15:10:48 2026] 127.0.0.1:49008 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:48 2026] 127.0.0.1:49008 Closing
+[Fri Oct 16 15:10:48 2026] 127.0.0.1:46788 Accepted
+[Fri Oct 16 15:10:49 2026] 127.0.0.1:46788 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:49 2026] 127.0.0.1:46788 Closing
+[Fri Oct 16 15:10:49 2026] 127.0.0.1:46802 Accepted
+[Fri Oct 16 15:10:49 2026] 127.0.0.1:46802 [200]: GET /api.php?accion=estado&t=2d406cb159f6ab5d4b6203c6&sesion=Emulador%202026-10-16&ruta=Prueba%2FDCIM%2FCamera%2FIMG_0001.jpg&tamano=123457
+[Fri Oct 16 15:10:49 2026] 127.0.0.1:46802 Closing
+[Fri Oct 16 15:10:50 2026] 127.0.0.1:46818 Accepted
+[Fri Oct 16 15:10:50 2026] 127.0.0.1:46818 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:50 2026] 127.0.0.1:46818 Closing
+[Fri Oct 16 15:10:50 2026] 127.0.0.1:46826 Accepted
+[Fri Oct 16 15:10:50 2026] 127.0.0.1:46826 [200]: GET /api.php?accion=estado&t=2d406cb159f6ab5d4b6203c6&sesion=Emulador%202026-10-16&ruta=Prueba%2FDCIM%2FCamera%2FIMG_0002.jpg&tamano=246914
+[Fri Oct 16 15:10:50 2026] 127.0.0.1:46826 Closing
+[Fri Oct 16 15:10:51 2026] 127.0.0.1:46842 Accepted
+[Fri Oct 16 15:10:52 2026] 127.0.0.1:46842 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:52 2026] 127.0.0.1:46842 Closing
+[Fri Oct 16 15:10:52 2026] 127.0.0.1:46858 Accepted
+[Fri Oct 16 15:10:52 2026] 127.0.0.1:46858 [200]: GET /api.php?accion=estado&t=2d406cb159f6ab5d4b6203c6&sesion=Emulador%202026-10-16&ruta=Prueba%2FDCIM%2FCamera%2FIMG_0003.jpg&tamano=370371
+[Fri Oct 16 15:10:52 2026] 127.0.0.1:46858 Closing
+[Fri Oct 16 15:10:52 2026] 127.0.0.1:46862 Accepted
+[Fri Oct 16 15:10:53 2026] 127.0.0.1:46862 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:53 2026] 127.0.0.1:46862 Closing
+[Fri Oct 16 15:10:53 2026] 127.0.0.1:46864 Accepted
+[Fri Oct 16 15:10:53 2026] 127.0.0.1:46864 [200]: GET /api.php?accion=estado&t=2d406cb159f6ab5d4b6203c6&sesion=Emulador%202026-10-16&ruta=Prueba%2FDCIM%2FCamera%2FIMG_0004.jpg&tamano=493828
+[Fri Oct 16 15:10:53 2026] 127.0.0.1:46864 Closing
+[Fri Oct 16 15:10:54 2026] 127.0.0.1:46866 Accepted
+[Fri Oct 16 15:10:54 2026] 127.0.0.1:46866 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:54 2026] 127.0.0.1:46866 Closing
+[Fri Oct 16 15:10:54 2026] 127.0.0.1:46870 Accepted
+[Fri Oct 16 15:10:54 2026] 127.0.0.1:46870 [200]: GET /api.php?accion=estado&t=2d406cb159f6ab5d4b6203c6&sesion=Emulador%202026-10-16&ruta=Prueba%2FDCIM%2FCamera%2FIMG_0005.jpg&tamano=617285
+[Fri Oct 16 15:10:54 2026] 127.0.0.1:46870 Closing
+[Fri Oct 16 15:10:55 2026] 127.0.0.1:46876 Accepted
+[Fri Oct 16 15:10:56 2026] 127.0.0.1:46876 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:56 2026] 127.0.0.1:46876 Closing
+[Fri Oct 16 15:10:56 2026] 127.0.0.1:46884 Accepted
+[Fri Oct 16 15:10:56 2026] 127.0.0.1:46884 [200]: GET /api.php?accion=estado&t=2d406cb159f6ab5d4b6203c6&sesion=Emulador%202026-10-16&ruta=Prueba%2FDCIM%2FCamera%2FIMG_0006.jpg&tamano=740742
+[Fri Oct 16 15:10:56 2026] 127.0.0.1:46884 Closing
+[Fri Oct 16 15:10:57 2026] 127.0.0.1:46898 Accepted
+[Fri Oct 16 15:10:58 2026] 127.0.0.1:46898 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:58 2026] 127.0.0.1:46898 Closing
+[Fri Oct 16 15:10:58 2026] 127.0.0.1:33970 Accepted
+[Fri Oct 16 15:10:58 2026] 127.0.0.1:33970 [200]: GET /api.php?accion=estado&t=2d406cb159f6ab5d4b6203c6&sesion=Emulador%202026-10-16&ruta=Prueba%2FDCIM%2FCamera%2FIMG_0007.jpg&tamano=864199
+[Fri Oct 16 15:10:58 2026] 127.0.0.1:33970 Closing
+[Fri Oct 16 15:10:58 2026] 127.0.0.1:33976 Accepted
+[Fri Oct 16 15:10:59 2026] 127.0.0.1:33976 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:10:59 2026] 127.0.0.1:33976 Closing
+[Fri Oct 16 15:10:59 2026] 127.0.0.1:33980 Accepted
+[Fri Oct 16 15:10:59 2026] 127.0.0.1:33980 [200]: GET /api.php?accion=estado&t=2d406cb159f6ab5d4b6203c6&sesion=Emulador%202026-10-16&ruta=Prueba%2FDCIM%2FCamera%2FIMG_0008.jpg&tamano=987656
+[Fri Oct 16 15:10:59 2026] 127.0.0.1:33980 Closing
+[Fri Oct 16 15:11:00 2026] 127.0.0.1:33986 Accepted
+[Fri Oct 16 15:11:01 2026] 127.0.0.1:33986 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:11:01 2026] 127.0.0.1:33986 Closing
+[Fri Oct 16 15:11:01 2026] 127.0.0.1:34000 Accepted
+[Fri Oct 16 15:11:01 2026] 127.0.0.1:34000 [200]: GET /api.php?accion=estado&t=2d406cb159f6ab5d4b6203c6&sesion=Emulador%202026-10-16&ruta=Prueba%2FDocumentos%2Fnota%20con%20espacios.txt&tamano=5
+[Fri Oct 16 15:11:01 2026] 127.0.0.1:34000 Closing
+[Fri Oct 16 15:11:02 2026] 127.0.0.1:34002 Accepted
+[Fri Oct 16 15:11:02 2026] 127.0.0.1:34002 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:11:02 2026] 127.0.0.1:34002 Closing
+[Fri Oct 16 15:11:02 2026] 127.0.0.1:34016 Accepted
+[Fri Oct 16 15:11:02 2026] 127.0.0.1:34016 [200]: GET /api.php?accion=estado&t=2d406cb159f6ab5d4b6203c6&sesion=Emulador%202026-10-16&ruta=Prueba%2FDocumentos%2Fvacio.txt&tamano=0
+[Fri Oct 16 15:11:02 2026] 127.0.0.1:34016 Closing
+[Fri Oct 16 15:11:03 2026] 127.0.0.1:34022 Accepted
+[Fri Oct 16 15:11:03 2026] 127.0.0.1:34022 [200]: POST /api.php?accion=subir&t=2d406cb159f6ab5d4b6203c6
+[Fri Oct 16 15:11:03 2026] 127.0.0.1:34022 Closing

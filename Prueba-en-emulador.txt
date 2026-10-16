@@ -1,0 +1,22 @@
+[15:05:24] Servidor PHP listo. Enlace: http://10.0.2.2:8000/movil.php?t=***
+[15:05:35] App instalada.
+[15:05:52] Archivos de prueba: 15 archivos, 129460841 bytes.
+10-16 15:06:16.593  2754  2754 I RespaldoWiFi: PRUEBA: 15 archivos en la lista
+[15:07:38] OK: se pausó con 22020096 bytes en la PC.
+[15:07:46] OK: en pausa no se envía nada.
+xargs: log: No such file or directory
+[15:07:56] Pantalla: Asleep. Doze: IDLE.
+[15:09:14] Apagando la PC (servidor) 10 s a la mitad del respaldo…
+[15:09:24] PC encendida de nuevo.
+10-16 15:10:45.349  3763  5028 I RespaldoWiFi: PROGRESO 121889024/129444457 bytes, 4/15 archivos
+10-16 15:10:50.746  3763  5028 I RespaldoWiFi: PROGRESO 125123457/129444457 bytes, 5/15 archivos
+10-16 15:10:56.336  3763  5028 I RespaldoWiFi: PROGRESO 126851855/129444457 bytes, 9/15 archivos
+10-16 15:11:02.123  3763  5028 I RespaldoWiFi: PROGRESO 129444457/129444457 bytes, 13/15 archivos
+10-16 15:11:03.798  3763  5028 I RespaldoWiFi: FIN COMPLETO listos=15/15 errores=0
+[15:11:06] Con la pantalla apagada llegaron 107424361 bytes. Pantalla al final: Asleep.
+[15:11:06] OK: el respaldo terminó COMPLETO.
+[15:11:06] OK: la pantalla siguió apagada todo el tiempo.
+[15:11:06] Carpeta creada en la PC: respaldos/Emulador 2026-10-16
+[15:11:07] OK: los 15 archivos llegaron idénticos (SHA-256).
+[15:11:07] OK: no quedó ningún archivo a medias.
+[15:11:19] === PRUEBA EN EMULADOR: TODO BIEN ===
