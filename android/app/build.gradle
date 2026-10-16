@@ -21,8 +21,9 @@ android {
     // Si no hay llave configurada, el APK de "release" se firma con la llave de prueba
     // (sirve para probar, pero no para actualizar una app ya instalada con la llave real).
     def llave = System.getenv("FIRMA_ARCHIVO")
+    def hayLlave = llave != null && file(llave).exists()
     signingConfigs {
-        if (llave && file(llave).exists()) {
+        if (hayLlave) {
             real {
                 storeFile file(llave)
                 storePassword System.getenv("FIRMA_CLAVE")
@@ -33,7 +34,7 @@ android {
     }
     buildTypes {
         release {
-            signingConfig (llave && file(llave).exists()) ? signingConfigs.real : signingConfigs.debug
+            signingConfig = hayLlave ? signingConfigs.real : signingConfigs.debug
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
