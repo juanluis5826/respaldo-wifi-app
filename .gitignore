@@ -1,0 +1,9 @@
+node_modules/
+android/app/build/
+android/build/
+android/.gradle/
+*.jks
+*.keystore
+FIRMA*.txt
+pruebas/motor/run/
+pruebas/motor/out/

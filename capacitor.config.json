@@ -1,0 +1,15 @@
+{
+  "appId": "mx.respaldowifi.app",
+  "appName": "Respaldo WiFi",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false,
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "SystemBars": {
+      "insetsHandling": "css",
+      "initialViewportFitValueHint": "cover"
+    }
+  }
+}

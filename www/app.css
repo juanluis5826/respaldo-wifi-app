@@ -1,0 +1,20 @@
+/* Agregados para la app (el resto viene igual de estilos.css). */
+body { padding: max(env(safe-area-inset-top), var(--safe-area-inset-top, 0px)) max(env(safe-area-inset-right), var(--safe-area-inset-right, 0px)) max(env(safe-area-inset-bottom), var(--safe-area-inset-bottom, 0px)) max(env(safe-area-inset-left), var(--safe-area-inset-left, 0px)); }
+.contenedor { padding-top: 16px; }
+header.titulo .accion { margin-left: auto; white-space: nowrap; flex: none; min-height: 36px; padding: 6px 10px; font-size: .85rem; }
+.ok-caja { background: var(--acento-suave); color: var(--acento); border-radius: 10px; padding: 10px 12px; font-size: .9rem; }
+.pasos-pc { margin: 0 0 14px; padding-left: 20px; color: var(--suave); font-size: .92rem; }
+.pasos-pc li { margin-bottom: 4px; }
+.separador { display: flex; align-items: center; gap: 10px; color: var(--suave); font-size: .82rem; margin: 14px 0; }
+.separador::before, .separador::after { content: ""; flex: 1; height: 1px; background: var(--borde); }
+.fila { display: flex; gap: 8px; }
+.fila input { flex: 1; min-width: 0; }
+.escaner { position: fixed; inset: 0; background: #000; z-index: 50; display: flex; flex-direction: column; }
+.escaner video { flex: 1; width: 100%; object-fit: cover; min-height: 0; }
+.escaner .marco { position: absolute; left: 50%; top: 45%; width: 64vmin; height: 64vmin; transform: translate(-50%, -50%);
+  border: 3px solid #3cc49a; border-radius: 18px; box-shadow: 0 0 0 100vmax rgba(0,0,0,.45); pointer-events: none; }
+.escaner .pie { padding: 16px 16px max(16px, env(safe-area-inset-bottom)); background: #000; color: #fff; text-align: center; }
+.escaner .pie p { margin: 0 0 12px; font-size: .95rem; }
+.escaner .pie button { width: 100%; }
+.consejo-bateria { display: flex; gap: 10px; align-items: flex-start; }
+.consejo-bateria svg { flex: none; width: 22px; height: 22px; color: var(--aviso); margin-top: 2px; }

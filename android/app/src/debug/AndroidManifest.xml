@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Solo en la versión de PRUEBA (debug): permite que la prueba automática en el emulador
+     inicie un respaldo sin tocar la pantalla. No existe en el APK que se instala a los clientes. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <activity
+            android:name=".PruebaActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    </application>
+</manifest>
