@@ -1,0 +1,39 @@
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+OK   Enlace del QR se interpreta bien  (1 ms)
+OK   Subida normal: todo llega idéntico y con su fecha  (333 ms)
+OK   Segunda vez: no duplica, marca 'Ya estaba'  (7 ms)
+OK   Pausar a la mitad y continuar sin volver a empezar  (148 ms)
+    (servidor apagado)
+    (servidor encendido de nuevo)
+OK   La PC se apaga a la mitad: reintenta y termina  (7644 ms)
+    (.part recortado a 1 MB)
+OK   Desfase 409: la PC tiene menos de lo esperado y se reenvía desde ahí  (42 ms)
+OK   Mismo nombre, distinto contenido: se guarda como (2)  (10 ms)
+OK   Token equivocado: se detiene con 'enlace vencido'  (1 ms)
+OK   PC apagada: avisa 'sin conexión' y deja todo en espera  (982 ms)
+OK   Medidor: ping, prueba y resultado  (33 ms)
+OK   Guardar y recuperar la lista (si Android cierra la app)  (1 ms)
+    [2 ms] subiendo enviados=0 trozo=4194304  | 
+    [4018 ms] subiendo enviados=4194304 trozo=4194304 Sin conexión, reintentando (1)… | subir: Sin conexión con la PC (SocketException: Unexpected end of file from server)
+    [4469 ms] subiendo enviados=4194304 trozo=4194304 Sin conexión, reintentando (2)… | estado: Sin conexión con la PC (ConnectException: Connection refused)
+    [5370 ms] subiendo enviados=4194304 trozo=4194304 Sin conexión, reintentando (3)… | estado: Sin conexión con la PC (ConnectException: Connection refused)
+    [6721 ms] subiendo enviados=4194304 trozo=4194304 Sin conexión, reintentando (4)… | estado: Sin conexión con la PC (ConnectException: Connection refused)
+    [8522 ms] subiendo enviados=4194304 trozo=4194304 Sin conexión, reintentando (5)… | estado: Sin conexión con la PC (ConnectException: Connection refused)
+    [10773 ms] subiendo enviados=4194304 trozo=4194304 Sin conexión, reintentando (6)… | estado: Sin conexión con la PC (ConnectException: Connection refused)
+    [13473 ms] subiendo enviados=4194304 trozo=4194304 Sin conexión, reintentando (7)… | estado: Sin conexión con la PC (ConnectException: Connection refused)
+    [16624 ms] subiendo enviados=4194304 trozo=4194304 Sin conexión, reintentando (8)… | estado: Sin conexión con la PC (ConnectException: Connection refused)
+    [20225 ms] subiendo enviados=4194304 trozo=4194304 Sin conexión, reintentando (9)… | estado: Sin conexión con la PC (ConnectException: Connection refused)
+    [24276 ms] subiendo enviados=4194304 trozo=4194304 Sin conexión, reintentando (10)… | estado: Sin conexión con la PC (ConnectException: Connection refused)
+    [28777 ms] subiendo enviados=4194304 trozo=4194304 Sin conexión, reintentando (11)… | estado: Sin conexión con la PC (ConnectException: Connection refused)
+    [33277 ms] pendiente enviados=4194304 trozo=4194304 Sin conexión con la PC | estado: Sin conexión con la PC (ConnectException: Connection refused)
+    OMITIDA: el servidor php -S de esta máquina se cerró (código 139).
+    php.log: [Fri Oct 16 14:57:11 2026] 127.0.0.1:33520 Closing
+    php.log: [Fri Oct 16 14:57:11 2026] 127.0.0.1:33536 Accepted
+    php.log: [Fri Oct 16 14:57:11 2026] 127.0.0.1:33536 [200]: GET /api.php?accion=estado&t=f8479898f5fdc8dc495350f0&sesion=Trozo%202026-10-16&ruta=Otros%2Fmediano.bin&tamano=6000000
+    php.log: [Fri Oct 16 14:57:11 2026] 127.0.0.1:33536 Closing
+    php.log: [Fri Oct 16 14:57:11 2026] 127.0.0.1:33542 Accepted
+    php.log: [Fri Oct 16 14:57:11 2026] PHP Warning:  POST Content-Length of 4195014 bytes exceeds the limit of 1048576 bytes in Unknown on line 0
+OK   Trozo más grande de lo que acepta la PC (413 o corte): se reduce solo  (33389 ms)
+
+TODAS LAS PRUEBAS PASARON
