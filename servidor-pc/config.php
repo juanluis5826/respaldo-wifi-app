@@ -9,6 +9,9 @@ const DIR_DATOS     = __DIR__ . DIRECTORY_SEPARATOR . 'datos';
 const ARCHIVO_TOKEN = DIR_DATOS . DIRECTORY_SEPARATOR . 'token.txt';
 const TROZO_MAXIMO  = 8 * 1024 * 1024; // 8 MB por petición como máximo
 
+// Nombre que verá el celular ("Conectado a ..."). Déjalo vacío ('') para usar el nombre de Windows.
+const NOMBRE_PC = 'PC de respaldo';
+
 /** Devuelve el token de acceso (lo crea si no existe o si se pide regenerar). */
 function obtenerToken(bool $regenerar = false): string
 {

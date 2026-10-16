@@ -38,7 +38,7 @@ if (!hash_equals(obtenerToken(), $token)) {
 
 switch ($accion) {
     case 'info':
-        responder(['trozo' => tamanoTrozo(), 'servidor' => gethostname() ?: 'PC']);
+        responder(['trozo' => tamanoTrozo(), 'servidor' => NOMBRE_PC !== '' ? NOMBRE_PC : (gethostname() ?: 'PC')]);
 
     case 'estado':
         [$destino, $tamano] = datosArchivo();
